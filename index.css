@@ -1,0 +1,103 @@
+body {
+    background-color: #EEEEEE;
+    background-image: url('static/bg.jpg');
+    background-repeat: repeat;
+    font-family: DejaVu Sans, Consolas, Universe;
+}
+
+a { pointer: cursor; text-decoration: none; }
+
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-height: 70px;
+}
+
+header h2 {
+    display: inline-block;
+    height: 50px;
+    margin-left: 20px;
+}
+
+h1, h2, h3 {
+    font-family: Scope One, DejaVu Sans Mono, Consolas, Universe;
+}
+
+header h2 a {
+    color: black;    
+}
+header h2 a:visited {
+    color: black;    
+}
+
+header nav {
+    display: block;
+    float:right;
+    padding: 10px;
+}
+
+article {
+    width: 90%;
+    margin:0px;
+    min-width: 300px;
+    display: block;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    height: 100%;
+    padding-bottom: 100%;
+    background: rgba(256, 256, 256, 0.2);
+    font-size: 0.9em;
+}
+
+article > section {
+    width: 90%;
+    min-width: 300px;
+    margin-left: auto;
+    display: block;
+}
+
+#posts input {
+    border: solid 1px #def;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+#posts button.sort {
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    background-color: #rgba(200,200,200,0.3);
+    height: 35px;
+    cursor: pointer;
+}
+
+#posts ul.list li {
+    background: rgba(256, 256, 256, 0.3);
+    padding: 5px;
+    margin-bottom: 5px;
+    list-style-type: non
+}
+
+#posts ul.list li p {
+    display: inline-block;
+    min-width: 150px;
+    padding-right: 20px; 
+}
+#posts ul.list li p.category {
+    min-width: 100px;
+}
+
+#posts ul.list li p.updated {
+}
+
+
+
+#posts ul.list li p.title {
+    display: block;
+}
